@@ -38,6 +38,7 @@ python main.py run --days 3
 - Stores items + report into ChromaDB (`memory/chroma/`)
 - Stores items + report into local vector memory (`memory/store/`) by default; will auto-use ChromaDB if available
 - Emails report if `EMAIL_TO` is set
+- It may take 1-3 minutes
 
 ### Interactive RAG chat
 
